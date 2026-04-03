@@ -3,8 +3,11 @@ Lightweight syntax query tool for common programming languages. Fast syntax rule
 
 轻量级编程语言语法查询工具。支持常见语言的语法规则快速检索。可通过 实用便捷 界面交互，内置模糊匹配与快捷复制功能，帮助开发者快速回忆或学习语法细节，提升编码效率。
 
+
 **绿色**、**免费**、**开源**、**不联外网**、**本地**
 ---
+
+应用平台:wn7/win10/win11
 
 
 **程序使用方法**
