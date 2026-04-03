@@ -1,82 +1,87 @@
-# syntax-query
-Lightweight syntax query tool for common programming languages. Fast syntax rule lookup, practical interface, fuzzy matching, and quick copy. Helps developers quickly recall or learn syntax details, boosting coding efficiency.
-
-轻量级编程语言语法查询工具。支持常见语言的语法规则快速检索。可通过 实用便捷 界面交互，内置模糊匹配与快捷复制功能，帮助开发者快速回忆或学习语法细节，提升编码效率。
-
-
-**绿色**、**免费**、**开源**、**不联外网**、**本地**
----
-
-应用平台:wn7/win10/win11
-
-
-**程序使用方法**
-
-0. **移动到语法的目录**：把`查询语法程序`移动到编程语法的文件夹里。
-
-1. **启动程序时**：程序会自动在程序当前文件夹以及最多两层子文件夹中，查找所有语法文本的文件名（比如 `.txt` `.html`等）。
-
-2. **搜索词语**：在输入框中输入你想查找的词，程序会列出所有包含这个词的文本文件名称。
-
-3. **复制文件内容**：点击任意一个文件名，程序会自动把该文件里的全部内容复制到电脑的剪贴板中。然后你只需在编程编辑器（比如写代码的软件）里按下“粘贴”快捷键，就能把内容贴进去。
-
----
-4. **自定义搜索范围**：程序下方还有一个输入框，你可以在这里增加要搜索的文件后缀名（例如 `.css`、`.py`），程序就会增加查找这些类型的文件。
-
-5. **右侧的 ⭐ 常用记录栏**：这里会自动记录你搜过的词语。用得越多的词排得越靠前（从高到低排序），你每次打开就能一眼看到最常用的词，越用越顺手。
 
 ---
 
-## 📥程序与公开源码【下载地址】:
+# Programming Language - Syntax Query V1.2
 
-[蓝盘下载 https://wwbrl.lanzoum.com/b0fqae41g](https://wwbrl.lanzoum.com/b0fqae41g)  
-密码：`1122`
+ [ **English** ]| [ [**中文版**](https://github.com/jiqi136/syntax-query/blob/main/Chinese.md) ] 
 
-[123盘下载 https://www.123865.com/s/nKjJjv-5Yg5d](https://www.123865.com/s/nKjJjv-5Yg5d)
+**Green**, **Free**, **Open-source**, **No external network connection**, **Local**
+---
+
+Supported platforms: Win7 / Win10 / Win11
+
+
+**How to use the program**
+
+0. **Move to the syntax directory**: Move the `Syntax Query Program` into the folder containing your programming syntax files.
+
+1. **When starting the program**: The program will automatically scan its current folder and up to two subfolder levels deep, searching for all text file names (e.g., `.txt`, `.html`, etc.).
+
+2. **Search for a term**: Enter the word you want to search for in the input box. The program will list all text files containing that word.
+
+3. **Copy file contents**: Click on any file name. The program will automatically copy the entire content of that file to your computer's clipboard. Then, simply press the "Paste" shortcut in your programming editor (e.g., code-writing software) to paste the content.
+
+![Image](https://github.com/jiqi136/syntax-query/blob/main/add/Tu1E.png?raw=true)
+
+---
+4. **Customize search scope**: There is another input box at the bottom of the program where you can add additional file extensions to search for (e.g., `.css`, `.py`). The program will then include those file types in its search.
+
+5. **⭐ Frequently Used Terms sidebar on the right**: This area automatically records the terms you've searched for. The more often you use a term, the higher it ranks (sorted from most to least frequent). The most commonly used terms will be right there when you open the program, making it more convenient with repeated use.
+
+---
+
+## 📥Program & Public Source Code [Download Links]:
+
+[github Download ]()
+
+
+[LanDisk Download https://wwbrl.lanzoum.com/b0fqae41g](https://wwbrl.lanzoum.com/b0fqae41g)  
+Password: `1122`
+
 
 
 
 ---
-本程序采用 桌面 GUI 框架,24小时速通完成。
+This program was built using a desktop GUI framework, completed in a 24-hour sprint.
 
 
-# PC-Gui: 为 AI 而生，原生支持类 Deepseek实时打字机流式输出的轻量桌面 GUI 框架！ 🎉
+# PC-Gui: Born for AI, a lightweight desktop GUI framework with native support for Deepseek-like real-time typewriter streaming output! 🎉
 
 
 
 
-> 💡 **核心理念：极速开发 · 极致体积 · 原生性能 · 助力打造用户愿意付费的优质工具**
+> 💡 **Core Philosophy: Rapid Development · Minimal Size · Native Performance · Helping You Build Quality Tools Users Are Willing to Pay For**
 
 
-在桌面端，用户对高效、实用工具的需求从未减弱，并且拥有强烈的付费意愿。
-PC-Gui 旨在帮助开发者快速响应这一市场需求，用最简单、最稳定的技术，构建出小巧而强大的商业级桌面应用。
+On the desktop, user demand for efficient, practical tools has never waned, and the willingness to pay remains strong.
+PC-Gui aims to help developers quickly respond to this market need, using the simplest and most stable technologies to build compact yet powerful commercial desktop applications.
 
 ---
 
-### 核心技术栈
+### Core Tech Stack
 
-摒弃了复杂的依赖，臃肿的第三方 GUI 库，回归编程的本质：**用后端思维构建桌面应用**。
-通过一个稳定的 Go 后端提供 Web 服务，驱动一个灵活的 Web 前端界面，实现了无与伦比的轻量化与性能。
+Abandoning complex dependencies and bloated third-party GUI libraries, returning to the essence of programming: **building desktop applications with a backend mindset**.
+By using a stable Go backend to provide web services and drive a flexible web frontend, we achieve unparalleled lightweight performance.
 
-| 组件 | 技术详情 |
+| Component | Technical Details |
 | :--- | :--- |
-| **后端服务** | Go 语言，基于标准库 `net/http` 提供本地 Web 服务。 |
-| **前端界面** | HTML, JavaScript, CSS 标准 Web 技术。 |
-| **数据存储** | 本地加密的 SQLite 数据库，轻量、可靠。 |
+| **Backend Service** | Go language, using the standard library `net/http` to provide local web services. |
+| **Frontend Interface** | Standard web technologies: HTML, JavaScript, CSS. |
+| **Data Storage** | Locally encrypted SQLite database, lightweight and reliable. |
 
 
 
 
 
-### 核心优势 & 多方案对比
+### Core Advantages & Multi-solution Comparison
 
-| 类别 | ✅ PC-Gui 优势 | ⚠️ 其他方案对比 |
+| Category | ✅ PC-Gui Advantages | ⚠️ Other Solutions Comparison |
 | :--- | :--- | :--- |
-| **🚀 零依赖运行** | **后端Go 语言**极速开发，强类型易于维护；交叉编译，生成单一可执行文件，无需用户安装任何运行时或依赖库，双击即可运行。 | ⚠️需要用户预装并配置  WebView2, Python、C++, Node.js 等复杂的环境和依赖。 |
-| **🎨界面技术 (HTML)** | **HTML** 前端界面可借助海量模板与 AI 工具快速生成，不仅效率极高，还能轻松打造出精美、现代的视觉风格。 | 传统 GUI 库界面通常较为陈旧，自定义难度高。 |
-| **AI 流式输出** | 仅需简单的异步处理，即可实现 AI 内容的流式输出，提升用户体验。 | 实现流式输出通常需要处理复杂的回调或多线程。 |
-| **Markdown 渲染** | 完美渲染 AI 返回的 Markdown 格式，并支持各类语言的语法高亮。 | Chatbox、Cherry等对 Markdown 渲染及代码高亮效果较为朴素。|
-| **单文件部署** | 利用 Go 标准库中的 embed，可以将所有静态资源（如图片、CSS 等）直接打包到单一可执行文件中，并复用 HTML 服务进行直接访问。|依赖臃肿:需借助外部工具打包，产物体积庞大或文件零散，部署复杂。 |
+| **🚀 Zero-dependency Execution** | **Backend in Go** enables rapid development, strong typing for easy maintenance; cross-compilation produces a single executable file, requiring no runtime or library installation from users – just double-click to run. | ⚠️ Requires users to pre-install and configure complex environments and dependencies like WebView2, Python, C++, Node.js, etc. |
+| **🎨 Interface Technology (HTML)** | **HTML** frontend interfaces can be quickly generated using numerous templates and AI tools, achieving not only high efficiency but also beautiful, modern visual styles with ease. | Traditional GUI libraries often have outdated interfaces that are difficult to customize. |
+| **AI Streaming Output** | Simple asynchronous handling is all it takes to achieve streaming output of AI content, enhancing user experience. | Implementing streaming output usually requires complex callbacks or multi-threading. |
+| **Markdown Rendering** | Perfectly renders Markdown format returned by AI, with syntax highlighting support for various languages. | Chatbox, Cherry, etc., have relatively basic Markdown rendering and code highlighting effects. |
+| **Single-file Deployment** | Using `embed` from the Go standard library, you can package all static resources (like images, CSS, etc.) directly into a single executable file, and reuse the HTML service for direct access. | Relies on bloated dependencies: requires external packaging tools, resulting in large binary sizes or scattered files, making deployment complex. |
 | ... | ... | ...|
 
-<a href="https://github.com/jiqi136/PC-Gui" target="_blank">GUI 框架公开源码下载github网址: https://github.com/jiqi136/PC-Gui</a>
+<a href="https://github.com/jiqi136/PC-Gui" target="_blank">GUI Framework Public Source Code Download (github): https://github.com/jiqi136/PC-Gui</a>
