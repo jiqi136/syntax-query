@@ -32,7 +32,7 @@ Supported platforms: Win7 / Win10 / Win11
 
 ## 📥Program & Public Source Code [Download Links]:
 
-[github Download ]()
+[github Download https://github.com/jiqi136/syntax-query/releases](https://github.com/jiqi136/syntax-query/releases)
 
 
 [LanDisk Download https://wwbrl.lanzoum.com/b0fqae41g](https://wwbrl.lanzoum.com/b0fqae41g)  
